@@ -1,0 +1,176 @@
+{
+  "version": "0.1",
+  "updated": "2026-07-17",
+  "description": "Android proxy kernel database",
+
+  "kernels": [
+    {
+      "name": "sing-box",
+      "category": "proxy-kernel",
+
+      "github": "https://github.com/SagerNet/sing-box",
+
+      "developer": "SagerNet",
+
+      "language": "Go",
+
+      "platform": [
+        "Android",
+        "Windows",
+        "Linux",
+        "macOS",
+        "iOS"
+      ],
+
+      "protocols": [
+        "VLESS",
+        "VMess",
+        "Trojan",
+        "Shadowsocks",
+        "Hysteria2",
+        "TUIC",
+        "NaiveProxy"
+      ],
+
+      "tun_support": true,
+
+      "rule_support": true,
+
+      "update_status": "active",
+
+      "notes": "Modern universal proxy engine."
+    },
+
+
+    {
+      "name": "Xray-core",
+      "category": "proxy-kernel",
+
+      "github": "https://github.com/XTLS/Xray-core",
+
+      "developer": "XTLS",
+
+      "language": "Go",
+
+      "platform": [
+        "Android",
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+
+      "protocols": [
+        "VLESS",
+        "VMess",
+        "Trojan",
+        "Shadowsocks"
+      ],
+
+      "tun_support": true,
+
+      "rule_support": true,
+
+      "update_status": "active",
+
+      "notes": "Popular V2Ray compatible core."
+    },
+
+
+    {
+      "name": "Mihomo",
+      "category": "proxy-kernel",
+
+      "github": "https://github.com/MetaCubeX/mihomo",
+
+      "developer": "MetaCubeX",
+
+      "language": "Go",
+
+      "platform": [
+        "Android",
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+
+      "protocols": [
+        "Clash",
+        "Shadowsocks",
+        "VLESS",
+        "Trojan",
+        "Hysteria2"
+      ],
+
+      "tun_support": true,
+
+      "rule_support": true,
+
+      "update_status": "active",
+
+      "notes": "Successor of Clash Meta."
+    },
+
+
+    {
+      "name": "Clash",
+
+      "category": "proxy-kernel",
+
+      "github": "https://github.com/Dreamacro/clash",
+
+      "developer": "Dreamacro",
+
+      "language": "Go",
+
+      "platform": [
+        "Android",
+        "Windows",
+        "Linux"
+      ],
+
+      "protocols": [
+        "Shadowsocks",
+        "VMess",
+        "Trojan"
+      ],
+
+      "tun_support": false,
+
+      "rule_support": true,
+
+      "update_status": "inactive",
+
+      "notes": "Original Clash core."
+    },
+
+
+    {
+      "name": "Shadowsocks-libev",
+
+      "category": "proxy-kernel",
+
+      "github": "https://github.com/shadowsocks/shadowsocks-libev",
+
+      "developer": "Shadowsocks",
+
+      "language": "C",
+
+      "platform": [
+        "Android",
+        "Linux"
+      ],
+
+      "protocols": [
+        "Shadowsocks"
+      ],
+
+      "tun_support": false,
+
+      "rule_support": false,
+
+      "update_status": "active",
+
+      "notes": "Lightweight Shadowsocks implementation."
+    }
+  ]
+}

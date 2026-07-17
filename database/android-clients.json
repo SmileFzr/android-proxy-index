@@ -2,110 +2,149 @@
   "version": "0.2",
   "updated": "2026-07-17",
   "description": "Android proxy client database",
-
   "clients": [
-
     {
       "name": "Karing",
       "category": "proxy-client",
-
       "github": "https://github.com/KaringX/karing",
+      "website": "https://karing.app",
       "developer": "KaringX",
-
       "platform": [
         "Android"
       ],
-
       "language": "Dart",
-
-      "ui": {
-        "framework": "Flutter",
-        "material_you": true,
-        "dark_mode": true
-      },
-
+      "framework": "Flutter",
       "kernel": [
         "sing-box"
       ],
-
       "protocols": [
         "VLESS",
         "VMess",
         "Trojan",
-        "Reality",
-        "Hysteria2",
-        "TUIC",
-        "Shadowsocks"
+        "Shadowsocks",
+        "Hysteria2"
       ],
-
-      "features": {
-        "tun": true,
-        "root": true,
-        "rule_provider": true,
-        "fake_ip": true,
-        "subscription": true
-      },
-
-      "maintenance": {
-        "status": "active"
-      },
-
-      "rating": {
-        "ui": 5,
-        "function": 5,
-        "maintenance": 5
-      }
+      "vpn_mode": true,
+      "tun_mode": true,
+      "update_status": "active",
+      "last_release": "",
+      "stars": "",
+      "screenshots": [],
+      "notes": "Modern Flutter based Android proxy client."
     },
 
-
     {
-      "name": "FlClash",
+      "name": "v2rayNG",
       "category": "proxy-client",
-
-      "github": "https://github.com/chen08209/FlClash",
-      "developer": "chen08209",
-
+      "github": "https://github.com/2dust/v2rayNG",
+      "website": "",
+      "developer": "2dust",
       "platform": [
         "Android"
       ],
+      "language": "Kotlin",
+      "framework": "Native Android",
+      "kernel": [
+        "Xray-core"
+      ],
+      "protocols": [
+        "VLESS",
+        "VMess",
+        "Trojan",
+        "Shadowsocks"
+      ],
+      "vpn_mode": true,
+      "tun_mode": true,
+      "update_status": "active",
+      "last_release": "",
+      "stars": "",
+      "screenshots": [],
+      "notes": "One of the most popular Android Xray clients."
+    },
 
+    {
+      "name": "NekoBox",
+      "category": "proxy-client",
+      "github": "https://github.com/MatsuriDayo/NekoBoxForAndroid",
+      "website": "",
+      "developer": "MatsuriDayo",
+      "platform": [
+        "Android"
+      ],
+      "language": "Kotlin",
+      "framework": "Native Android",
+      "kernel": [
+        "sing-box",
+        "Xray-core"
+      ],
+      "protocols": [
+        "VLESS",
+        "VMess",
+        "Trojan",
+        "Shadowsocks",
+        "Hysteria2"
+      ],
+      "vpn_mode": true,
+      "tun_mode": true,
+      "update_status": "active",
+      "last_release": "",
+      "stars": "",
+      "screenshots": [],
+      "notes": "Advanced Android proxy client."
+    },
+
+    {
+      "name": "Hiddify",
+      "category": "proxy-client",
+      "github": "https://github.com/hiddify/hiddify-app",
+      "website": "https://hiddify.com",
+      "developer": "Hiddify",
+      "platform": [
+        "Android"
+      ],
       "language": "Dart",
+      "framework": "Flutter",
+      "kernel": [
+        "sing-box"
+      ],
+      "protocols": [
+        "VLESS",
+        "Trojan",
+        "Hysteria2"
+      ],
+      "vpn_mode": true,
+      "tun_mode": true,
+      "update_status": "active",
+      "last_release": "",
+      "stars": "",
+      "screenshots": [],
+      "notes": "Cross-platform proxy client."
+    },
 
-      "ui": {
-        "framework": "Flutter",
-        "material_you": true,
-        "dark_mode": true
-      },
-
+    {
+      "name": "FLClash",
+      "category": "proxy-client",
+      "github": "https://github.com/chen08209/FlClash",
+      "website": "",
+      "developer": "chen08209",
+      "platform": [
+        "Android"
+      ],
+      "language": "Dart",
+      "framework": "Flutter",
       "kernel": [
         "Mihomo"
       ],
-
       "protocols": [
-        "Shadowsocks",
-        "VMess",
-        "VLESS",
-        "Trojan",
-        "Reality"
+        "Clash"
       ],
-
-      "features": {
-        "tun": true,
-        "root": true,
-        "rule_provider": true,
-        "subscription": true
-      },
-
-      "maintenance": {
-        "status": "active"
-      },
-
-      "rating": {
-        "ui": 5,
-        "function": 5,
-        "maintenance": 5
-      }
+      "vpn_mode": true,
+      "tun_mode": true,
+      "update_status": "active",
+      "last_release": "",
+      "stars": "",
+      "screenshots": [],
+      "notes": "Flutter Clash Meta client."
     }
-
   ]
 }
