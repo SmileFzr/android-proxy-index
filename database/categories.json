@@ -1,1 +1,33 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-07-17",
+  "description": "Category definitions for Android Proxy Index",
 
+  "categories": [
+    {
+      "id": "proxy-client",
+      "name": "Proxy Client",
+      "description": "Applications used to connect to proxy services."
+    },
+    {
+      "id": "proxy-kernel",
+      "name": "Proxy Kernel",
+      "description": "Core proxy engines."
+    },
+    {
+      "id": "protocol",
+      "name": "Protocol",
+      "description": "Network proxy protocols."
+    },
+    {
+      "id": "tool",
+      "name": "Tool",
+      "description": "Utilities related to proxy ecosystem."
+    },
+    {
+      "id": "library",
+      "name": "Library",
+      "description": "SDKs and reusable libraries."
+    }
+  ]
+}
