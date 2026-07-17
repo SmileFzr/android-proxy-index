@@ -1,5 +1,111 @@
 ﻿{
-  "version": "0.1",
+  "version": "0.2",
   "updated": "2026-07-17",
-  "clients": []
+  "description": "Android proxy client database",
+
+  "clients": [
+
+    {
+      "name": "Karing",
+      "category": "proxy-client",
+
+      "github": "https://github.com/KaringX/karing",
+      "developer": "KaringX",
+
+      "platform": [
+        "Android"
+      ],
+
+      "language": "Dart",
+
+      "ui": {
+        "framework": "Flutter",
+        "material_you": true,
+        "dark_mode": true
+      },
+
+      "kernel": [
+        "sing-box"
+      ],
+
+      "protocols": [
+        "VLESS",
+        "VMess",
+        "Trojan",
+        "Reality",
+        "Hysteria2",
+        "TUIC",
+        "Shadowsocks"
+      ],
+
+      "features": {
+        "tun": true,
+        "root": true,
+        "rule_provider": true,
+        "fake_ip": true,
+        "subscription": true
+      },
+
+      "maintenance": {
+        "status": "active"
+      },
+
+      "rating": {
+        "ui": 5,
+        "function": 5,
+        "maintenance": 5
+      }
+    },
+
+
+    {
+      "name": "FlClash",
+      "category": "proxy-client",
+
+      "github": "https://github.com/chen08209/FlClash",
+      "developer": "chen08209",
+
+      "platform": [
+        "Android"
+      ],
+
+      "language": "Dart",
+
+      "ui": {
+        "framework": "Flutter",
+        "material_you": true,
+        "dark_mode": true
+      },
+
+      "kernel": [
+        "Mihomo"
+      ],
+
+      "protocols": [
+        "Shadowsocks",
+        "VMess",
+        "VLESS",
+        "Trojan",
+        "Reality"
+      ],
+
+      "features": {
+        "tun": true,
+        "root": true,
+        "rule_provider": true,
+        "subscription": true
+      },
+
+      "maintenance": {
+        "status": "active"
+      },
+
+      "rating": {
+        "ui": 5,
+        "function": 5,
+        "maintenance": 5
+      }
+    }
+
+  ]
 }
